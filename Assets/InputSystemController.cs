@@ -20,11 +20,4 @@ public class InputSystemController : MonoBehaviour
             print("Attack canceled");
         }
     }
-
-    public void HandleMovement(InputAction.CallbackContext context)
-    {
-        Vector2 input = context.ReadValue<Vector2>();
-
-        print(input);
-    }
 }
